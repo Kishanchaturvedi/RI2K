@@ -1,0 +1,47 @@
+/*====================== bag-================ */
+.wallpaper-img{
+    width: 100%;
+    height: 50vh;
+}
+.bg-bag-div{
+    height: 283px;
+    width: 280px;
+}
+
+.bg-bag-color {
+    height: 577px;
+    background: #E6E6E6;
+}
+
+.plus-symbol {
+    background: #878787;
+    opacity: 0.4;
+}
+
+.bag-frame {
+    height: 622px;
+}
+
+/*========== responsive============== */
+
+/* // X-Large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) {
+    .bg-bag-color {
+        height: 500px;
+    }
+
+    .bag-frame {
+        height: 550px;
+    }
+}
+
+/* // Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+    .bg-bag-color {
+        height: 500px;
+    }
+
+    .bag-frame {
+        height: 550px;
+    }
+}

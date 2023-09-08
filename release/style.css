@@ -1,0 +1,40 @@
+.box {
+    height: 600px;
+    width: 600px;
+    background: red;
+}
+.bg-bag {
+    height: 577px;
+    background: #E6E6E6;
+}
+
+.plus-symbol{
+    background: #878787;
+    opacity: 0.4;
+}
+
+.bag-frame {
+    height: 612px;
+}
+
+/*========== responsive============== */
+
+/* // X-Large devices (large desktops, 1200px and down) */
+@media (max-width: 1200px) { 
+    .bg-bag{
+        height: 450px;
+    }
+    .bag-frame {
+        height: 500px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and down) */
+@media (max-width: 992px) { 
+    .bg-bag{
+        height: 450px;
+    }
+    .bag-frame {
+        height: 500px;
+    }
+ }

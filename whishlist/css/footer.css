@@ -1,0 +1,9 @@
+
+.logo::before, .logo::after{
+    content: "";
+    width: 50%;
+    display: block;
+    height: 2px;
+    background: #949494;
+
+}
